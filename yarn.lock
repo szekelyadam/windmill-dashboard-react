@@ -2618,6 +2618,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/history@npm:*":
+  version: 4.7.9
+  resolution: "@types/history@npm:4.7.9"
+  checksum: 556b062adb92795839301965776b0418e9ca32798bd8a6031345a6a84d7512771107143a497b7e3ff826d0b0d4456e962c6450485dda6f55c7dd33371e840529
+  languageName: node
+  linkType: hard
+
 "@types/http-cache-semantics@npm:*":
   version: 4.0.1
   resolution: "@types/http-cache-semantics@npm:4.0.1"
@@ -2741,6 +2748,27 @@ __metadata:
   dependencies:
     "@types/react": "*"
   checksum: b7e898e1a22643a371f58e801a3d1d8cf13a82d77063c24be73e840ef8d877ca1d04adc5db168d0dac3167dc050a26b1d70efc5fe8566a7f46a3c488a8322989
+  languageName: node
+  linkType: hard
+
+"@types/react-router-dom@npm:^5.1.8":
+  version: 5.1.8
+  resolution: "@types/react-router-dom@npm:5.1.8"
+  dependencies:
+    "@types/history": "*"
+    "@types/react": "*"
+    "@types/react-router": "*"
+  checksum: ff4af091f8e076b64f6f3f2af52429772641388393065930880e8931ce881873c2f0dff53bb1e373db5ae6b737fc514db4a1f5daa7d8bf3cf3b3088ce84472fc
+  languageName: node
+  linkType: hard
+
+"@types/react-router@npm:*":
+  version: 5.1.16
+  resolution: "@types/react-router@npm:5.1.16"
+  dependencies:
+    "@types/history": "*"
+    "@types/react": "*"
+  checksum: a9c04be430e7f63b17d3ac46fb5594e4089747b3004af04560cd068db136ccaedd66622f448489280cb5a94873dece69a5bc1f91c892ec5178e41ed00b78b43d
   languageName: node
   linkType: hard
 
@@ -4915,6 +4943,13 @@ __metadata:
   version: 2.2.6
   resolution: "classnames@npm:2.2.6"
   checksum: 09a4fda780158aa8399079898eabeeca0c48c28641d9e4de140db7412e5e346843039ded1af0152f755afc2cc246ff8c3d6f227bf0dcb004e070b7fa14ec54cc
+  languageName: node
+  linkType: hard
+
+"classnames@npm:2.3.1":
+  version: 2.3.1
+  resolution: "classnames@npm:2.3.1"
+  checksum: 14db8889d56c267a591f08b0834989fe542d47fac659af5a539e110cc4266694e8de86e4e3bbd271157dbd831361310a8293e0167141e80b0f03a0f175c80960
   languageName: node
   linkType: hard
 
@@ -18505,10 +18540,11 @@ typescript@^4.3.5:
     "@types/node": ^16.6.1
     "@types/react": ^17.0.18
     "@types/react-dom": ^17.0.9
+    "@types/react-router-dom": ^5.1.8
     "@windmill/react-ui": 0.5.1
     autoprefixer: 9.8.0
     chart.js: 2.9.3
-    classnames: 2.2.6
+    classnames: 2.3.1
     commitizen: 4.1.2
     cross-env: 7.0.2
     cssnano: 4.1.10

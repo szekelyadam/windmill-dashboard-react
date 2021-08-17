@@ -44,10 +44,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:16.6.1"],
             ["@types/react", "npm:17.0.18"],
             ["@types/react-dom", "npm:17.0.9"],
+            ["@types/react-router-dom", "npm:5.1.8"],
             ["@windmill/react-ui", "virtual:bcabbd287c471611f870d8bff7a871d3b589c5d725a8ae0d3d6d0219e9c3d7a09c83e7b1370725de8c657d8888c56adb6a89a76d0ff697455edb8eb5ad18a1eb#npm:0.5.1"],
             ["autoprefixer", "npm:9.8.0"],
             ["chart.js", "npm:2.9.3"],
-            ["classnames", "npm:2.2.6"],
+            ["classnames", "npm:2.3.1"],
             ["commitizen", "npm:4.1.2"],
             ["cross-env", "npm:7.0.2"],
             ["cssnano", "npm:4.1.10"],
@@ -4837,6 +4838,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@types/history", [
+        ["npm:4.7.9", {
+          "packageLocation": "./.yarn/cache/@types-history-npm-4.7.9-daa6588d04-556b062adb.zip/node_modules/@types/history/",
+          "packageDependencies": [
+            ["@types/history", "npm:4.7.9"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["@types/http-cache-semantics", [
         ["npm:4.0.1", {
           "packageLocation": "./.yarn/cache/@types-http-cache-semantics-npm-4.0.1-90863c7a3e-1048aacf62.zip/node_modules/@types/http-cache-semantics/",
@@ -4995,6 +5005,29 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@types/react-dom", "npm:17.0.9"],
             ["@types/react", "npm:17.0.18"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/react-router", [
+        ["npm:5.1.16", {
+          "packageLocation": "./.yarn/cache/@types-react-router-npm-5.1.16-4a491f17c7-a9c04be430.zip/node_modules/@types/react-router/",
+          "packageDependencies": [
+            ["@types/react-router", "npm:5.1.16"],
+            ["@types/history", "npm:4.7.9"],
+            ["@types/react", "npm:17.0.18"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/react-router-dom", [
+        ["npm:5.1.8", {
+          "packageLocation": "./.yarn/cache/@types-react-router-dom-npm-5.1.8-e62427075e-ff4af091f8.zip/node_modules/@types/react-router-dom/",
+          "packageDependencies": [
+            ["@types/react-router-dom", "npm:5.1.8"],
+            ["@types/history", "npm:4.7.9"],
+            ["@types/react", "npm:17.0.18"],
+            ["@types/react-router", "npm:5.1.16"]
           ],
           "linkType": "HARD",
         }]
@@ -7608,6 +7641,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/classnames-npm-2.2.6-98e9901cf4-09a4fda780.zip/node_modules/classnames/",
           "packageDependencies": [
             ["classnames", "npm:2.2.6"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:2.3.1", {
+          "packageLocation": "./.yarn/cache/classnames-npm-2.3.1-f2ae0a8d3c-14db8889d5.zip/node_modules/classnames/",
+          "packageDependencies": [
+            ["classnames", "npm:2.3.1"]
           ],
           "linkType": "HARD",
         }]
@@ -22880,10 +22920,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:16.6.1"],
             ["@types/react", "npm:17.0.18"],
             ["@types/react-dom", "npm:17.0.9"],
+            ["@types/react-router-dom", "npm:5.1.8"],
             ["@windmill/react-ui", "virtual:bcabbd287c471611f870d8bff7a871d3b589c5d725a8ae0d3d6d0219e9c3d7a09c83e7b1370725de8c657d8888c56adb6a89a76d0ff697455edb8eb5ad18a1eb#npm:0.5.1"],
             ["autoprefixer", "npm:9.8.0"],
             ["chart.js", "npm:2.9.3"],
-            ["classnames", "npm:2.2.6"],
+            ["classnames", "npm:2.3.1"],
             ["commitizen", "npm:4.1.2"],
             ["cross-env", "npm:7.0.2"],
             ["cssnano", "npm:4.1.10"],
